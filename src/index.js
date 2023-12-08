@@ -8,7 +8,7 @@
  * @fileoverview Continuous-scroll toolbox and flyout that is always open.
  */
 
-export * from './ContinuousCategory';
-export * from './ContinuousFlyout';
-export * from './ContinuousMetrics';
-export * from './ContinuousToolbox';
+export * from './ContinuousCategory.js';
+export * from './ContinuousFlyout.js';
+export * from './ContinuousMetrics.js';
+export * from './ContinuousToolbox.js';

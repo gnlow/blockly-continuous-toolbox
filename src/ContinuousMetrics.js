@@ -8,7 +8,7 @@
  * @fileoverview Overrides metrics to exclude the flyout from the viewport.
  */
 
-import * as Blockly from 'blockly/core';
+import { Blockly } from "./deps/blockly.js"
 
 /** Computes metrics for a toolbox with an always open flyout. */
 export class ContinuousMetrics extends Blockly.MetricsManager {

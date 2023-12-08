@@ -8,9 +8,9 @@
  * @fileoverview Flyout that supports always-open continuous scrolling.
  */
 
-import * as Blockly from 'blockly/core';
-import {ContinuousToolbox} from './ContinuousToolbox';
-import {ContinuousFlyoutMetrics} from './ContinuousMetricsFlyout';
+import { Blockly } from "./deps/blockly.js"
+import {ContinuousToolbox} from './ContinuousToolbox.js';
+import {ContinuousFlyoutMetrics} from './ContinuousMetricsFlyout.js';
 
 /**
  * Class for continuous flyout.
