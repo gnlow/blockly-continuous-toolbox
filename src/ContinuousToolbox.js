@@ -8,7 +8,7 @@
  * @fileoverview Toolbox that uses a continuous scrolling flyout.
  */
 
-import * as Blockly from 'blockly/core';
+import Blockly from 'blockly/core';
 import {ContinuousFlyout} from './ContinuousFlyout';
 
 /**

@@ -8,7 +8,7 @@
  * @fileoverview Toolbox category with styling for continuous toolbox.
  */
 
-import * as Blockly from 'blockly/core';
+import Blockly from 'blockly/core';
 
 /** Toolbox category for continuous toolbox. */
 export class ContinuousCategory extends Blockly.ToolboxCategory {
