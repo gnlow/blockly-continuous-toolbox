@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Blockly } from "./deps/blockly.js"
+import * as Blockly from 'blockly/core';
 
 /** Adds additional padding to the bottom of the flyout if needed. */
 export class ContinuousFlyoutMetrics extends Blockly.FlyoutMetricsManager {

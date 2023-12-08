@@ -8,8 +8,8 @@
  * @fileoverview Toolbox that uses a continuous scrolling flyout.
  */
 
-import { Blockly } from "./deps/blockly.js"
-import {ContinuousFlyout} from './ContinuousFlyout.js';
+import * as Blockly from 'blockly/core';
+import {ContinuousFlyout} from './ContinuousFlyout';
 
 /**
  * Class for continuous toolbox.
